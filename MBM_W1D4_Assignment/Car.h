@@ -8,12 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Car : NSObject {
+@interface Car : NSObject
 
-}
+@property (copy) NSString *model;
+- (void)drive;
++(void)setDefaultModel:(NSString *)aModel;
 
-@property   (copy) NSString *model;
-
-    - (void)drive;
 
 @end
