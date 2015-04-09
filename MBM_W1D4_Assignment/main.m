@@ -18,6 +18,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Changed the car to %@", toyota.model);
         
         [toyota drive];
+        
+        [Car setDefaultModel:@"Nissan Versa"];
     }
     return 0;
 }
