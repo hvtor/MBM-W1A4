@@ -17,6 +17,20 @@ static NSString *_defaultModel;
     
 }
 
+-(id)initWithModel:(NSString *)aModel {
+    self = [super init];
+    
+    if (self) {
+        _model = [aModel copy];
+        _odometer = 0;
+    }
+    return self=0;
+}
+
+-(id)init {
+    return [self initWithModel:_defaultModel];
+}
+
 -(void)drive {
     NSLog(@"Driving a %@. Vrooooom!", self.model);
 }
