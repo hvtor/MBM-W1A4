@@ -13,6 +13,7 @@
 		E98F84BA1AD76726001FD903 /* Challenge1.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84B91AD76726001FD903 /* Challenge1.m */; };
 		E98F84BC1AD76B2D001FD903 /* Challenge2.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84BB1AD76B2D001FD903 /* Challenge2.m */; };
 		E98F84BE1AD775F0001FD903 /* Challenge3.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84BD1AD775F0001FD903 /* Challenge3.m */; };
+		E98F84C01AD7774F001FD903 /* Challenge4.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84BF1AD7774F001FD903 /* Challenge4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,7 @@
 		E98F84B91AD76726001FD903 /* Challenge1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge1.m; sourceTree = "<group>"; };
 		E98F84BB1AD76B2D001FD903 /* Challenge2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge2.m; sourceTree = "<group>"; };
 		E98F84BD1AD775F0001FD903 /* Challenge3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge3.m; sourceTree = "<group>"; };
+		E98F84BF1AD7774F001FD903 /* Challenge4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E98F84B91AD76726001FD903 /* Challenge1.m */,
 				E98F84BB1AD76B2D001FD903 /* Challenge2.m */,
 				E98F84BD1AD775F0001FD903 /* Challenge3.m */,
+				E98F84BF1AD7774F001FD903 /* Challenge4.m */,
 			);
 			name = Challenges;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				E98F84B51AD717A2001FD903 /* Car.m in Sources */,
 				E98F84BC1AD76B2D001FD903 /* Challenge2.m in Sources */,
+				E98F84C01AD7774F001FD903 /* Challenge4.m in Sources */,
 				E98F84B71AD76272001FD903 /* DynamicTyping.m in Sources */,
 				E98F84AD1AD7177D001FD903 /* main.m in Sources */,
 				E98F84BA1AD76726001FD903 /* Challenge1.m in Sources */,
