@@ -13,12 +13,12 @@
 @interface XYPoint : NSObject
 
 
-@property (copy) NSNumber *xCoord;
-@property (copy) NSNumber *yCoord;
+@property (strong, nonatomic) NSNumber *xCoord;
+@property (strong, nonatomic) NSNumber *yCoord;
 
 
--(void) setXCoord:(NSNumber *)xCoord;
--(void) setYCoord:(NSNumber *)yCoord;
+//-(void) setXCoord:(NSNumber *)xCoord;
+//-(void) setYCoord:(NSNumber *)yCoord;
 
 -(NSNumber *)getXCoord;
 -(NSNumber *)getYCoord;

@@ -1,4 +1,4 @@
-//
+    //
 //  XYCoordTest.m
 //  MBM_W1D4_Assignment
 //
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "XYPoint.h"
 
-int main2(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
     }

@@ -13,25 +13,28 @@
 -(instancetype)init {
     self = [super init];
     if (self) {
-        _xCoord = @0;
-        _yCoord = @0;
+        self.xCoord = @0;
+        self.yCoord = @0;
     }
     return self;
 }
 
 // Mutator Method for xCoord
 -(void) setXCoord:(NSNumber *)xCoord {
-    _xCoord = xCoord;
+    self.xCoord = xCoord;
 }
 
 // Mutator Method for yCoord
 -(void) setYCoord:(NSNumber *)yCoord {
-    _yCoord = yCoord;
+    self.yCoord = yCoord;
 }
 
+//Accessor Method for xCoord
 -(NSNumber *)getXCoord {
-    return _xCoord;
+    return  _xCoord;
 }
+
+//Accessor Method for yCoord
 -(NSNumber *)getYCoord {
     return _yCoord;
 }
