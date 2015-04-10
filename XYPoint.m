@@ -13,8 +13,8 @@
 -(instancetype)init {
     self = [super init];
     if (self) {
-        self.xCoord = @0;
-        self.yCoord = @0;
+        _xCoord = @0;
+        _yCoord = @0;
     }
     return self;
 }
