@@ -10,6 +10,9 @@
 		E98F84AD1AD7177D001FD903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84AC1AD7177D001FD903 /* main.m */; };
 		E98F84B51AD717A2001FD903 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84B41AD717A2001FD903 /* Car.m */; };
 		E98F84B71AD76272001FD903 /* DynamicTyping.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84B61AD76272001FD903 /* DynamicTyping.m */; };
+		E98F84BA1AD76726001FD903 /* Challenge1.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84B91AD76726001FD903 /* Challenge1.m */; };
+		E98F84BC1AD76B2D001FD903 /* Challenge2.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84BB1AD76B2D001FD903 /* Challenge2.m */; };
+		E98F84BE1AD775F0001FD903 /* Challenge3.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84BD1AD775F0001FD903 /* Challenge3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +33,9 @@
 		E98F84B31AD717A2001FD903 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		E98F84B41AD717A2001FD903 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		E98F84B61AD76272001FD903 /* DynamicTyping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTyping.m; sourceTree = "<group>"; };
+		E98F84B91AD76726001FD903 /* Challenge1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge1.m; sourceTree = "<group>"; };
+		E98F84BB1AD76B2D001FD903 /* Challenge2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge2.m; sourceTree = "<group>"; };
+		E98F84BD1AD775F0001FD903 /* Challenge3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 		E98F84A01AD7177D001FD903 = {
 			isa = PBXGroup;
 			children = (
+				E98F84B81AD7670C001FD903 /* Challenges */,
 				E98F84AB1AD7177D001FD903 /* MBM_W1D4_Assignment */,
 				E98F84AA1AD7177D001FD903 /* Products */,
 			);
@@ -68,6 +75,16 @@
 				E98F84B41AD717A2001FD903 /* Car.m */,
 			);
 			path = MBM_W1D4_Assignment;
+			sourceTree = "<group>";
+		};
+		E98F84B81AD7670C001FD903 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				E98F84B91AD76726001FD903 /* Challenge1.m */,
+				E98F84BB1AD76B2D001FD903 /* Challenge2.m */,
+				E98F84BD1AD775F0001FD903 /* Challenge3.m */,
+			);
+			name = Challenges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E98F84B51AD717A2001FD903 /* Car.m in Sources */,
+				E98F84BC1AD76B2D001FD903 /* Challenge2.m in Sources */,
 				E98F84B71AD76272001FD903 /* DynamicTyping.m in Sources */,
 				E98F84AD1AD7177D001FD903 /* main.m in Sources */,
+				E98F84BA1AD76726001FD903 /* Challenge1.m in Sources */,
+				E98F84BE1AD775F0001FD903 /* Challenge3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
