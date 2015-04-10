@@ -21,12 +21,12 @@
 
 // Mutator Method for xCoord
 -(void) setXCoord:(NSNumber *)xCoord {
-    self.xCoord = xCoord;
+    _xCoord = xCoord;
 }
 
 // Mutator Method for yCoord
 -(void) setYCoord:(NSNumber *)yCoord {
-    self.yCoord = yCoord;
+    _yCoord = yCoord;
 }
 
 //Accessor Method for xCoord
