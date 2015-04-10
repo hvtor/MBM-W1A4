@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E981E4F31AD781D6002C78F3 /* Challenge5.m in Sources */ = {isa = PBXBuildFile; fileRef = E981E4F21AD781D6002C78F3 /* Challenge5.m */; };
+		E981E4F61AD79099002C78F3 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E981E4F51AD79099002C78F3 /* XYPoint.m */; };
 		E98F84AD1AD7177D001FD903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84AC1AD7177D001FD903 /* main.m */; };
 		E98F84B51AD717A2001FD903 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84B41AD717A2001FD903 /* Car.m */; };
 		E98F84B71AD76272001FD903 /* DynamicTyping.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84B61AD76272001FD903 /* DynamicTyping.m */; };
@@ -29,6 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E981E4F21AD781D6002C78F3 /* Challenge5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge5.m; sourceTree = "<group>"; };
+		E981E4F41AD79099002C78F3 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		E981E4F51AD79099002C78F3 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 		E98F84A91AD7177D001FD903 /* MBM_W1D4_Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MBM_W1D4_Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98F84AC1AD7177D001FD903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E98F84B31AD717A2001FD903 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 				E98F84BB1AD76B2D001FD903 /* Challenge2.m */,
 				E98F84BD1AD775F0001FD903 /* Challenge3.m */,
 				E98F84BF1AD7774F001FD903 /* Challenge4.m */,
+				E981E4F21AD781D6002C78F3 /* Challenge5.m */,
+				E981E4F41AD79099002C78F3 /* XYPoint.h */,
+				E981E4F51AD79099002C78F3 /* XYPoint.m */,
 			);
 			name = Challenges;
 			sourceTree = "<group>";
@@ -153,6 +161,8 @@
 				E98F84AD1AD7177D001FD903 /* main.m in Sources */,
 				E98F84BA1AD76726001FD903 /* Challenge1.m in Sources */,
 				E98F84BE1AD775F0001FD903 /* Challenge3.m in Sources */,
+				E981E4F61AD79099002C78F3 /* XYPoint.m in Sources */,
+				E981E4F31AD781D6002C78F3 /* Challenge5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +276,7 @@
 				E98F84B21AD7177D001FD903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
