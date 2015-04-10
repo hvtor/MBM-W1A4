@@ -20,6 +20,7 @@
 -(void) setXCoord:(NSNumber *)xCoord;
 -(void) setYCoord:(NSNumber *)yCoord;
 
-
+-(NSNumber *)getXCoord;
+-(NSNumber *)getYCoord;
 
 @end

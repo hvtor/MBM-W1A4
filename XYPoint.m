@@ -28,4 +28,11 @@
 -(void) setYCoord:(NSNumber *)yCoord {
     _yCoord = yCoord;
 }
+
+-(NSNumber *)getXCoord {
+    return _xCoord;
+}
+-(NSNumber *)getYCoord {
+    return _yCoord;
+}
 @end
