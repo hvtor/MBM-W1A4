@@ -19,22 +19,20 @@
     return self;
 }
 
-// Mutator Method for xCoord
+// Mutator Methods
 -(void) setXCoord:(NSNumber *)xCoord {
     _xCoord = xCoord;
 }
 
-// Mutator Method for yCoord
 -(void) setYCoord:(NSNumber *)yCoord {
     _yCoord = yCoord;
 }
 
-//Accessor Method for xCoord
+//Accessor Methods
 -(NSNumber *)getXCoord {
     return  _xCoord;
 }
 
-//Accessor Method for yCoord
 -(NSNumber *)getYCoord {
     return _yCoord;
 }
