@@ -24,7 +24,7 @@ static NSString *_defaultModel;
         _model = [aModel copy];
         _odometer = 0;
     }
-    return self=0;
+    return self;
 }
 
 -(id)init {

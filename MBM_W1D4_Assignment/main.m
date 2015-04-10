@@ -9,17 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "Car.h"
 
-int main(int argc, const char * argv[]) {
+int main1(int argc, const char * argv[]) {
     @autoreleasepool {
-        
+        [Car setDefaultModel:@"Nissan Versa"];
         Car *toyota = [[Car alloc] init];
         
         [toyota setModel:@"Toyota Corolla"];
-        NSLog(@"Changed the car to %@", toyota.model);
+//        NSLog(@"Changed the car to %@", toyota.model);
         
         [toyota drive];
         
-        [Car setDefaultModel:@"Nissan Versa"];
+     
     }
     return 0;
 }
